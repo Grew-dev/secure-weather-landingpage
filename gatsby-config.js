@@ -36,7 +36,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-leadfeeder`,
       options: {
-        key: "tIkMWxhCL1nlz3zy1HUfwSQoZfedtSSUhDkP6TeaEmQ",
+        key: "YEgkB8lmyAv7ep3Z",
       },
     },
   ],
