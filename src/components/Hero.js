@@ -37,7 +37,7 @@ const openInNewTab = (url) => {
                                             </li>
                                             <li className="feature-item">
                                                 <FiHeart size={60}/>
-                                                <p className="feature-item-text">Open source</p>
+                                                <a className="feature-item-text" style={{color:"white"}}href="https://github.com/Grew-dev/secure-local-weather" target="_blank">Open source &rsaquo;&rsaquo;</a>
                                             </li>
                                             </div>
                                         </div>
