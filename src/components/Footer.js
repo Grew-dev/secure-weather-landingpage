@@ -38,7 +38,7 @@ const data = useStaticQuery(getFlag)
           </div>
           <div className="column">
             <p className="footer-heading">Privacy:</p>
-            <a href="https://twitter.com/ihmissuti">Privacy Policy</a>
+            <a href="https://github.com/Grew-dev/grew-privacy-policy">Privacy Policy</a>
           </div>
           <div className="column">
             <p className="footer-heading">Contact</p>
