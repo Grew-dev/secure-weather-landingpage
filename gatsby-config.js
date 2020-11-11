@@ -32,12 +32,6 @@ module.exports = {
     },
     {
       resolve: 'gatsby-plugin-simple-analytics'
-    },
-    {
-      resolve: `gatsby-plugin-leadfeeder`,
-      options: {
-        key: "YEgkB8lmyAv7ep3Z",
-      },
-    },
+    }
   ],
 }
