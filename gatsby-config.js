@@ -31,11 +31,7 @@ module.exports = {
       },
     },
     {
-      resolve: 'gatsby-plugin-simple-analytics',
-      options: {
-        // Optional custom domain
-        domain: 'www.secureweather.io'
-      }
+      resolve: 'gatsby-plugin-simple-analytics'
     },
     {
       resolve: `gatsby-plugin-leadfeeder`,

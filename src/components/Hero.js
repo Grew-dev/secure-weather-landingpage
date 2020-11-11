@@ -17,12 +17,12 @@ const openInNewTab = (url) => {
     return (
         <div className="section">
             <div className="container">
-                <div className="columns columns-flex ">
-                    <div className="column  maincolumns is-three-fifths">
+                <div className="columns is-desktop is-vcentered">
+                    <div className="column is-three-fifths">
                         <div className="content has-text-centered ">
                             
-                                <p className="movetocenter heroheader">Secure Local Weather</p>
-                                <p className="movetocenter hero-value-prop">Get your accurate local weather forecast without sending any coordinate data to 3rd party services.</p>
+                                <h1 className="movetocenter heroheader">Secure Local Weather</h1>
+                                <h3 className="movetocenter hero-value-prop">Get your accurate local weather forecast without sending any coordinate data to 3rd party services.</h3>
                                 <button onClick={()=>{openInNewTab('https://proto.secureweather.io/')}} class="button b-text is-primary is-medium">Try it out now! </button>
                                     <div className="section">
                                         <div className="container features-list">

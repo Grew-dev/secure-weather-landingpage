@@ -1,7 +1,7 @@
 import React from "react"
 import { graphql, useStaticQuery } from "gatsby"
 import Image from "gatsby-image"
-import { FaLinkedin, FaTwitterSquare } from "react-icons/fa"
+import { FaLinkedin, FaTwitterSquare, FaGithub } from "react-icons/fa"
 import { FiExternalLink } from "react-icons/fi"
 import "../pages/mystyles.scss"
 
@@ -37,8 +37,12 @@ const data = useStaticQuery(getFlag)
             </div>
           </div>
           <div className="column">
+            <p className="footer-heading">Privacy:</p>
+            <a href="https://twitter.com/ihmissuti">Privacy Policy</a>
+          </div>
+          <div className="column">
             <p className="footer-heading">Contact</p>
-            <div className="grew ">
+            <div className="grew">
               <a style={{color:"white"}}href="https://grew.dev" target="_blank">Grew</a>
               <FiExternalLink size={14} style={{marginBottom:"5px", marginLeft:"2px"}}/>
             </div>
@@ -46,8 +50,11 @@ const data = useStaticQuery(getFlag)
             <a href="https://www.linkedin.com/company/global-reaction-company" style={{marginRight:"10px"}}>
               <FaLinkedin className="icon"></FaLinkedin>
             </a>
-            <a href="https://twitter.com/Grewdev">
+            <a href="https://twitter.com/Grewdev" style={{marginRight:"10px"}}>
               <FaTwitterSquare className="icon"></FaTwitterSquare>
+            </a>
+            <a href="https://github.com/Grew-dev">
+              <FaGithub className="icon"></FaGithub>
             </a>
             </div>
           </div>

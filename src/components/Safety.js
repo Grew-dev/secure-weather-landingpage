@@ -13,6 +13,7 @@ const Safety = () => {
     if (newWindow) newWindow.opener = null
 }
     return (
+        <div>
         <div className="section">
             <div className="container">
                 <div>
@@ -44,22 +45,24 @@ const Safety = () => {
                             <p className="animation-text-description">Typical weather apps send <b>the users exact location coordinates, over the internet, to third party services</b>.</p>
                         </div>
                     </div>
-                        <div className="section form-section">
-                            <div className="container">
-                                <div className="content">
-                                    <div className="movetocenter sign-up-form">
-                                        <p className="sign-up-text">Sign up for secure weather updates here:</p>
-                                        <div style={{marginLeft:"20px"}}>
-                                            <Form />
-                                        </div>
-                                    </div>
-                                
-                                </div>
-                            </div>
-                        </div>
+                        
                 </div>
             </div>
         </div>
+        <div className="section form-section">
+        <div className="container">
+            <div className="content">
+                <div className="movetocenter sign-up-form">
+                    <p className="sign-up-text">Sign up for secure weather updates here:</p>
+                    <div style={{marginLeft:"20px"}}>
+                        <Form />
+                    </div>
+                </div>
+            
+            </div>
+        </div>
+    </div>
+    </div>
     )
 }
 
